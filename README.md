@@ -32,6 +32,7 @@ The busstop is implemented through `::`
 
 ##Functional Changes
 There are new functional operators which concern the use of the switchgate, an number which controls all of the switchgate functions in the maze within an if-then function
+
 | Operator | Effect                                                                                   |
 |:-------- |:---------------------------------------------------------------------------------------- |
 | ` @`     | Instead of a number, use an at symbol to refer to the driver in the following functions  |
@@ -39,6 +40,7 @@ There are new functional operators which concern the use of the switchgate, an n
 | `=@`     | Is equal to switchgate     |
 | `>@`     | Is Greater Than switchgate |
 | `<@`     | Is Less Than switchgate    |
+
 ## Examples
 There is a program called busstop.mz which demonstrates some of this new capability
 ## Run
