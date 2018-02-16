@@ -201,7 +201,7 @@ def car_actions(maze, cars, functions, debug=False):
                 at = [reduce(lambda z,k: str(z) + " " + str(k),list(x)) for x in zip(*a)]
                 lines = ['t x y']
                 lines.extend(at)
-                end = ["","","set xlabel \'<xlabel>\'","set ylabel \'<ylabel>\'","set title \'<title>\'","set terminal png size 1200,900 enhanced font \"Helvetica,20\"","set output \'output.png\'"]
+                end = ["","","set xlabel <xlabel>'","set ylabel '<ylabel>'","set title '<title>'","set pointsize 1.5 ","set terminal png size 1200,900 enhanced font \"Helvetica,20\"","set key top right","set output 'output.png'","plot \"Plotdata.dat\" using 1:2 title '<x series>', \"Plotdata.dat\" using 1:3 title '<y series>'","quit"]
                 lines.extend(end)
                 file = open("Plotdata.dat","w")
                 for line in lines:
