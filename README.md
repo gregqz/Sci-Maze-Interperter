@@ -4,7 +4,7 @@ An Maze-Interperter with additional parts that make it slower, but more useful; 
 ## Changes
 The changes I have made are extensive, so it shouldn't be used in any serious manner.
 * Now supports arbitrary precision in mathematics
-* Implemented two new objects: The busstop and switchgate
+* Implemented three new objects: The busstop, switchgate, and hotels
 * Outputs what each car is carrying as well as the driver in debug mode
 
 ## Busstops
@@ -30,7 +30,7 @@ The busstop is implemented through `::`
 | `;t`     | The driver checks into the t hotel                                               |
 | `;p`     | Outputs a datafile containing the x,y,t hotels data                              |
 
-##Functional Changes
+## Functional Changes
 There are new functional operators which concern the use of the switchgate, an number which controls all of the switchgate functions in the maze within an if-then function
 
 | Operator | Effect                                                                                   |
